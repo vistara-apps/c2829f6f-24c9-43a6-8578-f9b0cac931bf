@@ -3,8 +3,8 @@ import './globals.css'
 import { ThemeProvider } from './components/ThemeProvider'
 
 export const metadata: Metadata = {
-  title: 'Base Mini App',
-  description: 'Built with Zara',
+  title: 'Pictura Facta',
+  description: 'Point, Snap, Discover: Verified Facts Instantly.',
 }
 
 export default function RootLayout({

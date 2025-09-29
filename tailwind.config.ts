@@ -85,9 +85,20 @@ const config: Config = {
         },
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        lg: "16px",
+        md: "10px",
+        sm: "6px",
+        xl: "20px",
+      },
+      boxShadow: {
+        card: "0 4px 12px hsla(220, 15%, 15%, 0.08)",
+        modal: "0 12px 32px hsla(220, 15%, 15%, 0.12)",
+      },
+      spacing: {
+        lg: "20px",
+        md: "12px",
+        sm: "8px",
+        xl: "32px",
       },
       keyframes: {
         "accordion-down": {
